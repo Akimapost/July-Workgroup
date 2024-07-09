@@ -6,3 +6,4 @@
 - Ieva
 - Kristine
 ---------------------------------------------------------------------
+Workgroup for Java and Python projects on WoTech program in 2024
