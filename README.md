@@ -1,7 +1,7 @@
 # July-Workgroup
 ### Team 28 😎
 **Team members:**
-- Tetiana
+- Tetiana (My name's Tetiana, I'm from Ukraine but live in Riga, and programming is a new field for me. Let's explore together!:-)
 - Sanita 
 - Ieva
 - Kristine
