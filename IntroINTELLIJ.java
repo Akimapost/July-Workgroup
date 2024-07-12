@@ -45,11 +45,11 @@ public class DatoriumApiApplication {
 		return arrayNum;
 	}
 
-	@GetMapping("/fruits")
-	public String[] fruitsList() {
-		String[] fruits = {"Apple", "Orange", "Mango", "Peach"};
-		return fruits;
-	}
+	@GetMapping("/list")
+  	public String[] list (){
+		String[] fruits = {"apple", "banana", "kiwi", "peach", "plum"};
+        	return fruits;
+    }
 
 	@GetMapping("/draw")
 	public int[][] draw(){
