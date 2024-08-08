@@ -33,8 +33,10 @@ Workgroup for Java and Python projects on WoTech program in 2024
 ### 07.08.2024. Teamwork ('Architecture and structure' in Java):
 Discuss and find information about clean architecture
 
-*1. What's the importance of each layer
-2. Why is there needed some kind of structure and architecture
-3. Find other architecture types, figure out pros and cons*
+*1. What's the importance of each layer*
+
+*2. Why is there needed some kind of structure and architecture*
+
+*3. Find other architecture types, figure out pros and cons*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
