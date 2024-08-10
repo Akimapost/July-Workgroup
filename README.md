@@ -40,3 +40,13 @@ Discuss and find information about clean architecture
 *3. Find other architecture types, figure out pros and cons*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 08.08.2024. Teamwork ('Create controller/service/dto' in Java):
+
+1. Create MessageController.java
+   
+2. Create MessageService.java
+   
+3. Create Message.java
+   
+4. In message controller, create an endpoint, which uses both MessageService and Message.java
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
