@@ -30,5 +30,10 @@ sns.regplot(
     data=water_df, x="Attack", y="Defense", 
     ci=99, marker="x", color=".3", line_kws=dict(color="r"),
 )
+# 3/Calculate the Pearson correlation for each DataFrame (variables: Attack and Defense) 
+grass_corr = grass_df['Attack'].corr(grass_df['Defense'])
+grass_corr
+water_corr = water_df['Attack'].corr(water_df['Defense'])
+water_corr 
 ```
 
