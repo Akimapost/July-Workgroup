@@ -15,4 +15,14 @@ print(f"Maximum Speed is {max_speed}")
 print(f"Minimum Speed is {min_speed}")
 print(f"Difference between Max and Min Speed is {speed_difference}")
 
+# Filter the DataFrame to include only the Pokémon with 'Speed' >= 80. How many Pokémon meet this criterion?
+speed_greater_equal_than_80 = pokemon_df[pokemon_df['Speed'] >= 80]
+print(len(speed_greater_equal_than_80))
+
+# Display this DataFrame using your preferred visualization method
+plt.hist(speed_greater_equal_than_80 ["Speed"], color = 'pink', edgecolor = "white", alpha= 0.7)
+plt.title("Pokemons with Speed >= 80")
+plt.xlabel("Speed")
+plt.ylabel("Frequency")
+plt.show()
 ```
