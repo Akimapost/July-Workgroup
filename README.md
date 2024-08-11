@@ -50,3 +50,17 @@ Discuss and find information about clean architecture
    
 4. In message controller, create an endpoint, which uses both MessageService and Message.java
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 10.08.2024 Teamwork ('Correlation, dataframe filtering'in Python)
+Task: Visualizing the correlation of Attack and Defense variables of two Types: Grass and Water Type 1 Pokémon.
+
+*1. Create two DataFrame Grass and Water*
+
+*2. Create the regression plots for each (Grass and Water)*
+
+*3. Calculate the Pearson correlation for each DataFrame (variables: Attack and Defense)*
+
+*4. Explain to each other what do you see and what it means.*
+   
+Watch this video in your free time: [https://www.youtube.com/watch?v=7ArmBVF2dCs&pp=ygUjd2hhdCBpcyBsaW5lYXIgcmVncmVzc2lvbiBzdGF0cXVlc3Q%3D]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
