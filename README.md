@@ -64,3 +64,13 @@ Task: Visualizing the correlation of Attack and Defense variables of two Types: 
 Watch this video in your free time: [https://www.youtube.com/watch?v=7ArmBVF2dCs&pp=ygUjd2hhdCBpcyBsaW5lYXIgcmVncmVzc2lvbiBzdGF0cXVlc3Q%3D]
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 14.08.2024 Teamwork ('Create a GET method for users' in java)
+
+1. Create UserController endpoint to get all users
+2. Create a UserService method to get all users
+3. Create a UserRepository method to get all users
+4. Add user with a postman
+5. Try to get all the users with GET method
+6. Repeat step 4 and 5
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
