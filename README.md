@@ -74,3 +74,25 @@ Watch this video in your free time: [https://www.youtube.com/watch?v=7ArmBVF2dCs
 6. Repeat step 4 and 5
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 15.08.2024 Teamwork ( 'Create CheeseShop API'in java)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 17.08.2024 Teamwork ('Scikit-learn'in Python)
+
+**Task: Look at scikit-learn library together. Suggested questions to discuss:**
+
+*1. What is an error rate?*
+
+*2. Where you could use other machine-learning models?*
+
+*3. What is the difference between supervised and unsupervised training?*
+
+*4. How to import different models from the scikit-learn package?*
+
+*5. How can you evaluate the performance of a machine learning model in scikit-learn?*
+
+*6. What metrics are commonly used for evaluation?*
+
+*7. What is model overfitting, and how can it be prevented?*
+
+Linear regression models: [https://scikit-learn.org/stable/modules/linear_model.html]
+The overall documentation: [https://scikit-learn.org/stable]
