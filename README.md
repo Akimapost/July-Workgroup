@@ -96,3 +96,32 @@ Watch this video in your free time: [https://www.youtube.com/watch?v=7ArmBVF2dCs
 
 Linear regression models: [https://scikit-learn.org/stable/modules/linear_model.html]
 The overall documentation: [https://scikit-learn.org/stable]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 21.08.2024 Teamwork ('Explore different filters and their combinations with SQL'in Java)
+1. Use our Pet clinics files
+2. Use online free SQLight platform https://sqliteonline.com/
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 22.08.2024 Teamwork ('SQL'in Java)
+**Perform the following tasks:**
+1. Calculate total Sales by City
+2. Calculate total Sales by Pet Kind
+3. Calculate total Sales by City and Pet Kind
+4. Calculate Average sales by City
+5. If you have additional time, explore relationships with SQLight
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 24.08.2024 Teamwork ('Cross-validation on titanic dataset'in Python)
+*EASY:* 
+Add DecisionTreeClassifier to titanic data predictions. 
+
+*HARD:* 
+Investigate what is cross-validation and implement cross-validation on any classification model you prefer on Titanic data. Explain to each other, what do you see. 
+
+*Example:*
+```
+k_fold = KFold(n_splits=10, shuffle=True, random_state=42)
+accuracy_scores = cross_val_score(model_knn_cv, X, y, cv=k_fold, scoring='accuracy')
+```
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
