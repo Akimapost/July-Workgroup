@@ -125,3 +125,53 @@ k_fold = KFold(n_splits=10, shuffle=True, random_state=42)
 accuracy_scores = cross_val_score(model_knn_cv, X, y, cv=k_fold, scoring='accuracy')
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 28.08.2024 Teamwork ('Databases'in Java)
+
+1. Download dbBrowser for sqlite: [https://sqlitebrowser.org/dl/]
+
+2. Try to open the database that you created in your project (you can see the my.db in files on the left side)
+
+3. Read about SQL, learn insert, delete, update, select on this page: [https://sqliteonline.com/]
+
+*A lot of resources is here:*
+[https://www.w3schools.com/sql/default.asp]
+
+4. Create 3 tables with some non-complex data, populate them with values, you will be able to use this database later on, but this is just for you to practise and understand db a bit better.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 29.08.2024 Teamwork ('SQL in repository'in Java)
+
+1. Use the example of SQL in Java and add an "AddUser" method inside the previous Datorium API project - User repository.
+2. Try and run postman and verify with db browser that the data is there
+3. COPY the code from today's lesson. Open the project with Controllers/Services/Repositories (we used it 2 weeks ago).
+4. Open UserRepository
+5. Inside add(User user) method, paste the code.
+
+*Should look something similar to this:*
+```java    public void add(User user){
+        String url = "jdbc:sqlite:my.db";
+        try (var conn = DriverManager.getConnection(url)) {
+            if (conn != null) {
+                var statement = conn.createStatement();
+                statement.execute("INSERT INTO people (name) VALUES ('" + user.name + "')");
+                //INSERT INTO people (name) VALUES ('');DROP TABLE people;--')
+            }
+        } catch (SQLException e) {
+            System.err.println(e.getMessage());
+        }
+    }
+```
+
+*NOTE: previously we returned int in this method, change it to void. (You will have to make changes inside userController and userService as well*
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 07.09.2024 Teamwork ('Numpy mathematical simulations'in Python)
+
+1. Design a simulation where you toss two coins simultaneously. 
+2. Record the possible outcomes (heads or tails for each coin) and run the simulation for multiple trials (e.g., 100, 500, or 1000 tosses). 
+3. After collecting the data:
+
+- Calculate the probabilities of each outcome (HH, HT, TH, TT).
+- Visualize the results using a bar chart or pie chart to represent the frequencies and probabilities of each outcome.
+- Analyze whether the results align with the expected theoretical probabilities.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
