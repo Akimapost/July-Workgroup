@@ -175,3 +175,35 @@ accuracy_scores = cross_val_score(model_knn_cv, X, y, cv=k_fold, scoring='accura
 - Analyze whether the results align with the expected theoretical probabilities.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 11.09.2024 Teamwork ('Test that the Update is working correctly'in Java)
+Task: Test the /user/update endpoint. All the code and what is needed in postman is sent in Java channel
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 14.09.2024 Teamwork ('Git commands'in Python)
+Task: Explore how Git works:
+- Install VS Code
+- Create a repository in GitHub
+- Clone the repository from GitHub to VS Code
+- Try to push changes to GitHub
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 18.09.2024 Teamwork ('Unit testing weird sum method'in Java)
+Task: Hi, I want to be able to get a sum of 2 numbers, but if the sum is above 100, then I want to receive 0 instead.
+
+1. Create MathService
+
+2. Create a method sum()
+
+3. Create a unit test for this method.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 19.09.2024 Teamwork ('Bigger than, smaller than, equal'in Java)
+Task:
+1. Create a game where you have to guess a number.
+2. If the number is too big, then we return 3
+3. If the number is too small, we return 2
+4. If the number is exactly the same, we return 1.
+
+*EDIT: If you are advanced enough, just use enums*
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
