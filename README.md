@@ -207,3 +207,23 @@ Task:
 *EDIT: If you are advanced enough, just use enums*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 21.09.2024 Teamwork ('1D Simple Random Walk'in Python)
+Task:
+Simulate a 1D simple random walk where at each step can be moving only up or down. How many steps ⏫  can you actually get?
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 25.09.2024 Teamwork ('Random leetcode problem'in Java)
+Task:
+1. Log in leetcode - OR ANY OTHER developer site where you can get problems to solve
+[https://leetcode.com/problemset/]
+2. Choose a random problem from leetcode algorithms problem, which has difficulty Medium, but if you can't do it, go Easy
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 26.09.2024 Teamwork ('Mock tests and splitting method'in Java)
+Task:
+1.  Read about mock tests (if you can, try to make mock tests)
+  [https://www.baeldung.com/mockito-mock-methods]
+
+2.  Split the getRandomCity into 3 different methods.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
